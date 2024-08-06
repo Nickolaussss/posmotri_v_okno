@@ -1,1 +1,1 @@
-<!--https://github.com/Nickolaussss/posmotri_v_okno-->
+https://github.com/Nickolaussss/posmotri_v_okno
