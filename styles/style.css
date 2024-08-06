@@ -90,6 +90,7 @@ ol {
 
   &:hover {
     text-decoration: underline;
+    cursor: pointer;
   }
 }
 
@@ -152,7 +153,7 @@ ol {
 .content__list {
   position: relative;
   width: 399px;
-  height: 200px;
+  height: 290px;
   overflow: auto;
   scrollbar-width: none;
 }
