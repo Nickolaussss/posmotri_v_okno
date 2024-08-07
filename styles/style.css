@@ -17,6 +17,7 @@ html {
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  padding: 133px 0 0;
 }
 
 h1,
@@ -51,9 +52,13 @@ ol {
 .content {
   margin: 0 auto;
   display: flex;
-  align-items: end;
+  align-items: center;
   width: 1140px;
   gap: 30px;
+}
+
+.result {
+  padding: 162px 0 133px;
 }
 
 .result__video-container {
@@ -83,6 +88,7 @@ ol {
   font-family: "Fira Sans Condensed", Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
+  margin: 0 0 5px;
 }
 
 .search-form__label {
@@ -102,8 +108,8 @@ ol {
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox {
-  width: 15px;
-  height: 15px;
+  width: 19px;
+  height: 19px;
   background-color: #fff;
   outline: 1px solid #fff;
   outline-offset: 2px;
@@ -135,6 +141,7 @@ ol {
 
 .content__details {
   width: 100%;
+  padding: 0 0 39px;
 }
 
 .title {
@@ -153,7 +160,7 @@ ol {
 .content__list {
   position: relative;
   width: 399px;
-  height: 290px;
+  height: 286px;
   overflow: auto;
   scrollbar-width: none;
 }
@@ -168,8 +175,20 @@ ol {
   color: #fff;
   margin: 2px;
 
+  &:active {
+    background-color: #545050;
+  }
+
   &:hover {
     text-decoration: underline;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:focus-visible {
+    outline: 1px solid #fff;
   }
 }
 
@@ -191,6 +210,8 @@ ol {
   font-family: "Oswald", Arial, sans-serif;
   font-size: 30px;
   font-weight: 700;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
 }
 
 .content__video-card-description {
@@ -224,6 +245,10 @@ ol {
 
   &:focus {
     outline: none;
+  }
+
+  &:focus-visible {
+    outline: 1px solid #fff;
   }
 }
 
