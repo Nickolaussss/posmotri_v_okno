@@ -91,12 +91,22 @@ ol {
   margin: 0 0 5px;
 }
 
+.search-form__checkbox-list {
+  display: flex;
+    gap: 0 15px;
+}
+
 .search-form__label {
   width: fit-content;
 
   &:hover {
     text-decoration: underline;
     cursor: pointer;
+  }
+
+  &:has(:focus-visible) {
+    outline: 1px solid #fff;
+    display: inline-block;
   }
 }
 
