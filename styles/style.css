@@ -96,6 +96,7 @@ ol {
 .search-form__checkbox-list {
   display: flex;
   gap: 0 15px;
+  white-space: nowrap;
 }
 
 .search-form__label {
@@ -110,7 +111,6 @@ ol {
 
   &:has(:focus-visible) {
     outline: 1px solid #fff;
-    display: inline-block;
   }
 }
 
