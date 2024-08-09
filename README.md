@@ -1,1 +1,9 @@
-https://github.com/Nickolaussss/posmotri_v_okno
+<!-- https://github.com/Nickolaussss/posmotri_v_okno -->
+
+# Посмотри в окно
+
+### Данный проект является практической работой №2 курса Яндекс Практикум. Проект написан при помощи Flex и Grid технологий.
+
+#### Практическая работа не имеет кроссбраузерность и адаптивность.
+
+[Ссылка на проект](https://nickolaussss.github.io/posmotri_v_okno/)
